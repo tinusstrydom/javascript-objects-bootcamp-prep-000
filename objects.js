@@ -1,4 +1,4 @@
 var playlist = {Mew : "Comforting Sounds"};
-funtion updatePlaylist(playlist, artistName, songTitle){
-  return Object.assign({}, playlist, {[artistName},songTitle});
+funtion updatePlaylist(obj , artistName, songTitle){
+  return Object.assign({}, obj, {[artistName},songTitle});
 }
